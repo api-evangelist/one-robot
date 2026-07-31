@@ -1,7 +1,29 @@
 aid: one-robot
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/one-robot.png
 name: One Robot
-description: One Robot is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  One Robot is a San Francisco-based Y Combinator (Winter 2026) startup building
+  world-model-based simulation environments for robotics teams. Its core product
+  learns physics and visual appearance directly from real robot data, producing
+  simulation environments that are both visually and physically realistic so teams
+  can train and evaluate robot manipulation policies without excessive reliance on
+  physical robot time and real-world data collection. One Robot specializes in
+  contact-rich manipulation, deformable objects (such as textile and box folding),
+  and precise assembly tasks. As an early-stage two-person company it currently
+  offers task-specific simulation collaboration rather than a public developer
+  platform or API; this profile tracks the company in the API Evangelist network
+  for future enrichment as any developer surface emerges.
 url: https://raw.githubusercontent.com/api-evangelist/one-robot/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +33,28 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Robotics
+- Simulation
+- Artificial Intelligence
+- Machine Learning
+- World Models
+- Y Combinator
 apis: []
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
+common:
+- type: DomainSecurity
+  url: security/one-robot-domain-security.yml
+- type: Website
+  url: https://www.onerobot.io/
+- type: Support
+  url: mailto:founders@onerobot.io
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
