@@ -50,7 +50,7 @@ tags:
 - Robotics
 - Simulation
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - World Models
 - Y Combinator
 tags_raw:
@@ -61,6 +61,7 @@ tags_raw:
 - Machine Learning
 - World Models
 - Y Combinator
+- Machine-Learning
 apis: []
 x-enrichment:
   date: '2026-07-20'
